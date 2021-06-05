@@ -1,0 +1,7 @@
+c:\users\hp\documents\visual studio 2010\Projects\ClassLibrary1\WebApplication1\bin\WebApplication1.dll
+c:\users\hp\documents\visual studio 2010\Projects\ClassLibrary1\WebApplication1\bin\WebApplication1.pdb
+c:\users\hp\documents\visual studio 2010\Projects\ClassLibrary1\WebApplication1\bin\ClassLibrary1.dll
+c:\users\hp\documents\visual studio 2010\Projects\ClassLibrary1\WebApplication1\bin\ClassLibrary1.pdb
+c:\users\hp\documents\visual studio 2010\Projects\ClassLibrary1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2010\Projects\ClassLibrary1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\hp\documents\visual studio 2010\Projects\ClassLibrary1\WebApplication1\obj\Debug\WebApplication1.pdb
