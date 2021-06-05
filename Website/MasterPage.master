@@ -1,0 +1,168 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    
+    <style type="text/css">
+        *
+        {
+            margin:0px;
+            padding:0px;
+        }
+        .form 
+        {
+            width: 70%;
+            margin: auto;
+        }
+        .form2 
+        {
+            width: 100%;
+            margin: auto;
+        }
+        .div
+        {
+            height:70px;
+            background-color:#333399;
+            
+           
+            
+        }
+        .LI
+        {
+            float:left;
+            color:white;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-right:30px;
+            padding-left:30px;
+            list-style:none;
+            
+            
+        }
+        .LI2
+        {
+            color:white;
+            padding-top:10px;
+            padding-bottom:10px;
+            
+           list-style:none;
+            
+        }
+        .li3
+        {
+            position:absolute;
+            }
+        #na ul li:hover ul
+        {
+            display:block;
+            background-color:#485C7F;
+        }
+         #na ul li:hover 
+        {
+            
+            background-color:#485C7F;
+        }
+        #na ul li ul
+        {
+            display:none;
+        }
+        #na a
+        {
+            color:White;
+            text-decoration:none;
+        }
+        .validator {
+    display: block;
+    width: 100%;
+    margin: auto;
+    font-size: small;
+    color: red;
+}
+
+.textbox {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border-style: groove;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.button {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: gold;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.omni
+{
+   width: 70%;
+   margin: auto;
+   
+    }
+    
+    .audi
+    {
+        width: 50%;
+        margin: auto;
+    }
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="padding-left:150px">
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/213.png" 
+            Width="340px" /></div>
+    <div id="na" style= "height:50px; width:100%;"class="div">
+    <ul style=" margin-left:350px; position:absolute;">
+    <li class="LI"><a href="Home.aspx">HOME</a></li>
+    <li class="LI"><a href="AboutUs.aspx">ABOUT US</a></li>
+    <li class="LI"><a href="Register.aspx" id="anuja" runat="server"></a></li>
+    <li class="LI"><a href="Login.aspx" id="Login" runat="server"></a></li>
+    <li class="LI">SERVICES<span><img src="Images/arrow.png" height="15px" width="15px" style="margin-left:10px;" /></span>
+    <ul>
+    <li class="LI2"><a href="Importanceofhygiene.aspx">Importance of hygiene</a></li>
+    <li class ="LI2"><a href="Selfdefence.aspx">Self defence</a></li>
+    <li class="LI2"><a href="Jobs.aspx">Jobs</a></li>
+    <li class="LI2"><a href="Business.aspx">Business</a></li>
+    <li class="LI2"><a href="BI.aspx">Business Information</a></li>
+    <li class="LI2"><a href="Laws.aspx">Laws</a></li>
+    <li class="LI2"><a href="Wa.aspx">Women's Achievements</a></li>
+    <li class="LI2"><a href="Blogs.aspx">Blogs</a></li>
+    </ul>
+    </li>
+    
+    <li class="LI">CONTACT US<span><img src="Images/arrow.png" height="15px" width="15px" style="margin-left:10px;" /></span>
+    <ul>
+    <li class="LI2"><a href="Contactep.aspx">Contact Women's Empowerment</a></li>
+    <li class="LI2"><a href="Emergencyno.aspx">Emergency Helpline No.</a></li>
+    <li class="LI2"><a href="Feedback.aspx">Feedback</a></li>
+     </ul>
+   
+    </li>
+    
+
+    </ul>
+        
+    </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
+
